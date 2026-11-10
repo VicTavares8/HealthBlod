@@ -1,5 +1,5 @@
 # Usamos la imagen oficial de Tomcat 9
-FROM tomcat:9.0
+FROM tomcat:10.1
 
 # Limpiamos las aplicaciones por defecto del servidor
 RUN rm -rf /usr/local/tomcat/webapps/*
